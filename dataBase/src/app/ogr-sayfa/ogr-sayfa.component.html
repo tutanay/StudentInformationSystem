@@ -1,0 +1,54 @@
+<form #form="ngForm">
+    
+    <input type="hidden" name="BaglantiID " #EmployeeID="ngModel" [(ngModel)]="formBaglanti.BaglantiID" />
+    <button class="turnBack" [routerLink]="['/home']">Geri Git</button>
+    <br>
+    <div class="container form">
+
+        <label class="labelColor"> Öğrenci Adı</label>
+        <br>
+        <ul>
+            <li class="liBack" *ngFor="let ogr of employeeService.adSoyad" [value]="ogr.EmployeeID">
+                <br>
+                <span>{{ogr.Name}} {{ogr.Surname}}</span>
+            </li>
+        </ul>
+        <br>
+        <label class="labelColor">Ders</label>
+        <br>
+        <select name="LessonID" #LessonID="ngModel" [(ngModel)]="formBaglanti.LessonID">
+            <option *ngFor="let derss of employeeService.btnDersler"
+                [selected]="this.formBaglanti.LessonID == derss.LessonID" [value]="derss.LessonID">{{derss.LessonName}}
+            </option>
+        </select>
+
+
+        <br>
+
+        <label class="labelColor"> Not</label>
+        <br>
+        <input type="text" name="note" #note="ngModel" [(ngModel)]="formBaglanti.Note">
+        <br>
+        <button type="button" class="primary" (click)="onSubmit();">Kaydet</button>
+        <button type="reset" class="warning">Temizle</button>
+
+
+   
+
+<table>
+    <tr class="labelColor">
+        <td><b>#</b></td>
+        <td><b>Ders Adı</b></td>
+        <td><b> Not</b></td>
+    </tr>
+    <tr *ngFor="let lsn of lssn2" class="labelColor">
+        <td>
+                
+            <button (click)="updateLesson(lsn);" type="button" class="not">Düzenle</button>
+            <button (click)="deleteLesson(lsn.BaglantiID);" type="button" class="delete">Sil</button></td>
+        <td>{{lsn.LessonName}}</td>
+        <td>{{lsn.Note}}</td>
+    </tr>
+</table>
+</div>
+</form>

@@ -1,0 +1,11 @@
+C:\Users\Tutanay\source\repos\sqlConnection\sqlConnectionDAL\bin\Debug\sqlConnectionDAL.dll
+C:\Users\Tutanay\source\repos\sqlConnection\sqlConnectionDAL\bin\Debug\sqlConnectionDAL.pdb
+C:\Users\Tutanay\source\repos\sqlConnection\sqlConnectionDAL\obj\Debug\sqlConnectionDAL.csproj.CoreCompileInputs.cache
+C:\Users\Tutanay\source\repos\sqlConnection\sqlConnectionDAL\obj\Debug\sqlConnectionDAL.dll
+C:\Users\Tutanay\source\repos\sqlConnection\sqlConnectionDAL\obj\Debug\sqlConnectionDAL.pdb
+C:\Users\Tutanay\source\repos\sqlConnection\sqlConnectionDAL\obj\Debug\sqlConnectionDAL.csprojAssemblyReference.cache
+D:\Önemliiii\sqlConnection\sqlConnectionDAL\bin\Debug\sqlConnectionDAL.dll
+D:\Önemliiii\sqlConnection\sqlConnectionDAL\bin\Debug\sqlConnectionDAL.pdb
+D:\Önemliiii\sqlConnection\sqlConnectionDAL\obj\Debug\sqlConnectionDAL.csprojAssemblyReference.cache
+D:\Önemliiii\sqlConnection\sqlConnectionDAL\obj\Debug\sqlConnectionDAL.dll
+D:\Önemliiii\sqlConnection\sqlConnectionDAL\obj\Debug\sqlConnectionDAL.pdb

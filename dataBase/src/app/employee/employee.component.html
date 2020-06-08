@@ -1,0 +1,44 @@
+<form #form="ngForm" >
+  <input type="hidden" name="EmployeeID " #EmployeeID="ngModel" [(ngModel)]="formData.EmployeeID" />
+  <br>
+  <div class="container form">
+    <label class="col-md-4 yazi "> Ad</label>
+    <br>
+    <input type="text" class="form-control input" name="Name" #Name="ngModel"
+      [(ngModel)]="formData.Name" />
+      <br>
+    <label class="col-md-4 yazi ">Soyad</label>
+    <br>
+    <input type="text" class="form-control input" name="Surname" #Surname="ngModel"
+      [(ngModel)]="formData.Surname" />
+    <br>
+      <label class="col-md-4 yazi ">Numara</label>
+    <br>
+    <input type="text" class="form-control input" name="Number" #Number="ngModel"
+      [(ngModel)]="formData.Number" />
+      <br>
+    <button type="button" class="primary" (click)="onSubmit();">Kaydet</button>
+    <button type="reset" class="warning">Temizle</button>
+  <br>
+  </div>
+</form>
+
+<table >
+  <tr class="td">#
+     <td ><b>Ad</b></td>
+     <td><b>Soyad</b></td>
+     <td><b>Numara</b></td>
+ </tr>
+ <tr *ngFor ="let emp of employeeService.list">
+ <td>
+   <button type="submit" class="update" (click)="updateRecord(emp)">Düzenle</button>
+      <button  (click)="deleteRecord(emp.EmployeeID)" type="button" class="delete" >Sil</button>
+     <button  type="button" class="not"  (click)='routeID(emp)' >Not Ekle</button>
+ </td>
+ <td > {{emp.Name}}</td>
+ <td >{{emp.Surname}}</td>
+ <td >{{emp.Number}}</td>
+     
+ </tr>
+</table>
+

@@ -1,0 +1,229 @@
+/* You can add global styles to this file, and also import other style files */
+table, td, th {  
+  font-family: "Georgia",Times,serif;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  table {
+    font-family: "Georgia",Times,serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    font-family: "Georgia",Times,serif;
+    padding: 15px;
+  }
+  .form-control{
+    font-family: "Georgia",Times,serif;
+    border-width: thin;
+    border-color: rgb(112, 110, 110);
+    border-radius: 3px;
+
+  }
+  .labelColor{
+    font-family: 'Georgia',Times,serif;
+    font-size: 20px;
+    color: #164779;
+  }
+  .liBack
+  {
+    color: #b8568c;
+    font-family: "Georgia",Times,serif;
+    font-size: 20px;
+    background-color: #f0f5f5;
+  }
+  .yazi{
+    font-size: 18px;
+    font-family: 'Georgia',Times,serif;
+    margin-left: 20px;
+  }
+  .form{
+    text-align: center;
+    font-family: "Georgia",Times,serif;
+    width: 500px;
+    background-color:   #f1eeee;
+    
+  }
+  .turnBack{
+    margin-top: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-family: "Georgia",Times,serif;
+    font-size: 15px;
+  display: inline-block;
+  padding: 8px 16px;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  border-color: indigo;
+  color: black;
+
+  }
+  .turnBack:hover {
+    font-family: "Georgia",Times,serif;
+    background-color: #ddd;
+  color: black;
+  }
+  .turnBack:active {
+    font-family: "Georgia",Times,serif;
+    background-color: #555;
+  }
+  
+  .container1
+  {
+    font-family: "Georgia",Times,serif;
+    margin:  auto;
+    border-style: solid;
+    border-color: black;
+    border-radius:  5px;
+    border-width: thin;
+    background-color: indigo;
+    color: white;
+  }
+  li a {
+    font-family: "Georgia",Times,serif;
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: indigo;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    font-family: "Georgia",Times,serif;
+    background-color:#00264d;
+  }
+
+  
+  ul {
+    font-family: "Georgia",Times,serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  .container {
+    font-family: "Georgia",Times,serif;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  input[type=submit]:hover {
+    font-family: "Georgia",Times,serif;
+    background-color: #45a049;
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    font-family: "Georgia",Times,serif;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+ 
+  input[type=text], select, textarea {
+    width: 50%;
+    
+    margin-left: 10%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: "Georgia",Times,serif;
+  }
+   input[type=password], select, textarea {
+    width: 50%;
+    margin-left: 10%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: "Georgia",Times,serif;
+  }
+  .noteSave{
+    background-color: darksalmon;
+    color: white;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    width: 55px;
+    height: 30px;
+    font-family: "Georgia",Times,serif;
+  }
+  .primary{
+    font-size: 15px;
+
+    background-color: rgb(36, 160, 133);
+    color: white;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    font-family: "Georgia",Times,serif;
+  }
+  .warning{
+    margin-left: 10px;
+    font-size: 15px;
+    background-color:   #812e2e;
+    color: white;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    font-family: "Georgia",Times,serif;
+  }
+
+  .update{
+    font-size: 15px;
+
+    font-family: "Georgia",Times,serif;
+    margin-left: 10px;
+    background-color:    #398cdf;
+    color: white;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    height: 30px;
+  
+  }
+  .delete{
+    font-size: 15px;    
+    font-family: "Georgia",Times,serif;
+    margin-left: 10px;
+    background-color:      #db8616;
+    color: white;
+    border:1px solid #ccc;
+    border-radius: 15px;
+    height: 30px;
+  
+  }
+  .td{
+    background-color:  #f2f2f2;
+    font-family: "Georgia",Times,serif;
+  }
+  tr:hover {
+    font-family: "Georgia",Times,serif;
+    background-color:#d9e8f5;
+
+  }
+  .not{
+    font-family: "Georgia",Times,serif;
+    background-color:indianred;
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    height: 30px;
+  }
